@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгения  Пак](https://up.htmlacademy.ru/adaptive/16/user/818165).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Тюлихова]((https://htmlacademy.ru/profile/id523263).
 
 ---
 
