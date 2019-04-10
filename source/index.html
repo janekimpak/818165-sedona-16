@@ -2,11 +2,132 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedona</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo.svg" width="226" height="30" alt="City of Sedona">
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+        <button class="button-menu" type="submit">Meню</button>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Сайт города Седона</h1>
+      <section class="desk-page">
+        <img class="desk-page__sedona" src="img/welcome.png">
+        <img class="desk-page__mask desk-page__mask--visible" src="img/mask.png" width="500" height="30" alt="mask">
+      </section>
+      <section class="advantegers">
+        <p class="advanteger-1">Седона - небольшой городок в Аризоне,<br> заслуживающий большего</p>
+        <p class="advanteger-2">Рассмотрим 5 причин по которым Седона круче, чем Гранд Коньон!</p>
+      </section>
+      <section class="features-blue">
+        <div class="text-content one-third">
+          <h2>Настоящий городок</h2>
+          <span>&mdash; №1 &mdash;</span>
+          <p>Седона - не аттракцион для туристов,<br>
+            там течет своя жизнь
+          </p>
+        </div>
+        <div class="view-image two-third">
+          <img src="img/motel.jpg" width="800" height="256" alt="Красивый вид">
+        </div>
+      </section>
+      <section class="features-white">
+        <div class="text-content one-third">
+          <div class="house">
+            <img src="img/dom.svg" width="75" height="72" alt="Домик">
+          </div>
+          <h2>Жилье</h2>
+          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </div>
+        <div class="text-content one-third">
+          <div class="text-content one-third">
+            <div class="gift">
+              <img src="img/gift.svg" width="64" height="76" alt="Подарок">
+            </div>
+          <h2>Сувениры</h2>
+          <p>
+            Не только китайского,<br> 
+            но и местного производства!
+          </p>
+        </div>
+          <div class="food">
+            <img src="img/burger.svg" width="74" height="70" alt="Бутерброд">
+          </div>
+          <h2>Еда</h2>
+          <p>
+            Всегда заказывайте фирменный бургер,<br>
+            вы не разочаруетесь!
+          </p>
+        </div>
+      </section>
+      <section class="features-blue">
+        <div class="text-content one-third">
+          <h2>Там есть мост Дьявола</h2>
+          <span>&mdash; №2 &mdash;</span>
+          <p>Да, по нему можно пройти! Если вы, осмелитесь конечно</p>
+        </div>
+        <div class="view-image two-third">
+          <img src="img/conyon.jpg" width="800" height="256" alt="Красивый вид">
+        </div>
+      </section>
+      <section class="features-grey">
+        <div class="text-content one-third">
+          <h2>Небольшая площадь</h2>
+          <span>&mdash; №3 &mdash;</span>
+          <p>Все интересные места находятся очень близко</p>
+        </div>
+        <div class="text-content one-third">
+          <h2>Красивая дорога</h2>
+          <span>&mdash; №4 &mdash;</span>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </div>
+        <div class="text-content one-third">
+          <h2>Мало туристов</h2>
+          <span>&mdash; №5 &mdash;</span>
+          <p>Большинство едет в Гранд каньон и толпится там</p>
+        </div>
+      </section>
+      <section class="form-req">
+        <p class="form-req-1">Заинтересовались?</p>
+        <p class="form-req-2">Укажите предполагаемые даты поездки,<br> 
+        и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
+      </section>
+      <button class="form-button" type="submit">Найти гостиницу</button>
+      <section class="map">
+        <img src="img/map.jpg">
+      </section>
+    <footer class="main-footer">
+      <a class="vizitsedona" href="index.html">#vizitsedona</a>
+      <ul class="footer-social">
+        <li><a class="social-button" href="#"><img src="img/twitter.svg" width="16" height="18" alt="иконка ссылки twitter"></a></li>
+        <li><a class="social-button" href="#"><img src="img/fb-icon.svg" width="16" height="18" alt="иконка ссылки facebook"></a></li>
+        <li><a class="social-button" href="#"><img src="img/youtube.svg" width="16" height="18" alt="иконка ссылки youtube"></a></li>
+      </ul>
+      <p class="footer-copyright">
+      <b>РАЗРАБОТАНО</b>
+      <a class="htmlacademy" href="https://htmlacademy.ru"><img src="img/logo_name.png" alt="logo"></a>
+      </p>
+    </footer>
+  </main>
+</body>
 </html>
