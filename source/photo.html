@@ -8,13 +8,13 @@
   <body>
   	<header class="page-header">
   	  <a class="page-header__logo">
-        <img class="page-header__logo-image page-header__logo-image--center" src="img/logo.svg" width="226" height="30" alt="City of Sedona">
+        <img class="page-header__logo-image" src="img/logo.svg" width="226" height="30" alt="City of Sedona">
       </a>
       <nav class="main-nav">
       	<div class="main-nav__wrapper">
       	  <ul class="main-nav__list site-list">
       	    <li class="site-list__item site-list__item--active">
-              <a>Главная</a>
+              <a href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
               <a href="photo.html">Фото и видео</a>
@@ -26,7 +26,7 @@
               <a href="#">HTML Academy</a>
             </li>
           </ul>
-          <button class="button-menu" type="submit">
+          <button class="button-menu" type="submit">Meню
           </button>
         </div>
       </nav>
@@ -34,40 +34,44 @@
     <main class="page-main">
       <h1 class="visually-hidden">Фото и видео</h1>
       <section class="desk-page">
-      	<img class="desk-page__sedona" src="img/welcome.png">
+        <h2 class="visually-hidden">welcome to sedona</h2>
+      	<img class="desk-page__sedona" src="img/welcome.png" alt="welcome to sedona">
       	<img class="desk-page__mask desk-page__mask--visible" src="img/mask.png" width="500" height="30" alt="white-mask">
       </section>
       <section class="photo-video">
+        <h2 class="visually-hidden">photo & video </h2>
       	<p class="photo-video__header">Фото и видео</p>
       	<p>Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
       </section>
       <section class="photo-sightseeing">
-        <div class="photo-sightseeing__photo-boris">
+        <h2 class="visually-hidden">photo</h2>
+        <div class="photo-sightseeing__photo">
           <img src="img/landscape.png" width="280" height="280" alt="photo-landscape">
-          <p>Народные просторы</p>
-          <p>Автор фото: Борис</p>
-          <p>1350</p>
+          <p class="photo-sightseeing__text">Народные просторы</p>
+          <p class="photo-sightseeing__author">Автор фото: Борис</p>
+          <p class="photo-sightseeing_price">1350</p>
         </div>
-        <div class="photo-sightseeing__photo-sergei">
+        <div class="photo-sightseeing__photo">
           <img src="img/sergei.png" width="280" height="280" alt="photo-plants">
-          <p>Местная растительность</p>
-          <p>Автор фото: Сергей</p>
-          <p>143</p>
+          <p class="photo-sightseeing__text">Местная растительность</p>
+          <p class="photo-sightseeing__author">Автор фото: Сергей</p>
+          <p class="photo-sightseeing_price">143</p>
         </div>
-        <div class="photo-sightseeing__photo-peter">
+        <div class="photo-sightseeing__photo">
           <img src="img/peter.png" width="280" height="280" alt="photo-road">
-          <p>Дорога на север</p>
-          <p>Автор фото: Петр</p>
-          <p>96</p>
+          <p class="photo-sightseeing__text">Дорога на север</p>
+          <p class="photo-sightseeing__author">Автор фото: Петр</p>
+          <p class="photo-sightseeing_price">96</p>
         </div>
-        <div class="photo-sightseeing__photo-Anton">
+        <div class="photo-sightseeing__photo">
           <img src="img/anton.png" width="280" height="280" alt="photo-bridge">
-          <p>Мост дьявола</p>
-          <p>Автор фото: Антон</p>
-          <p>143</p>
+          <p class="photo-sightseeing__text">Мост дьявола</p>
+          <p class="photo-sightseeing__author">Автор фото: Антон</p>
+          <p class="photo-sightseeing_price">143</p>
         </div>
       </section>
       <section class="video-sightseeing">
+        <h2 class="visually-hidden">video</h2>
         <p class="video-sightseeing__zagolovok">Вы ещё сомневаетесь?</p>
         <p class="video-sightseeing__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
         <img src="img/video-mobile.png" width="280" height="280" alt="video">
